@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="765.0" prefWidth="661.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="IllegalMining.GalamseyController">
+   <children>
+      <ImageView fitHeight="765.0" fitWidth="661.0" pickOnBounds="true">
+         <image>
+            <Image url="@../FXimages/2140.jpg" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#970d0d" height="96.0" layoutX="-4.0" layoutY="66.0" stroke="BLACK" strokeType="INSIDE" width="668.0" />
+      <Label layoutX="170.0" layoutY="91.0" text="Galamsay Activity Input">
+         <font>
+            <Font size="31.0" />
+         </font>
+      </Label>
+      <AnchorPane layoutX="87.0" layoutY="141.0" prefHeight="584.0" prefWidth="487.0">
+         <children>
+            <Button fx:id="store" layoutX="110.0" layoutY="459.0" mnemonicParsing="false" onAction="#setStore" prefHeight="39.0" prefWidth="249.0" style="-fx-background-color: darkred;" text="Store">
+               <font>
+                  <Font size="14.0" />
+               </font></Button>
+            <Button fx:id="back" layoutX="181.0" layoutY="520.0" mnemonicParsing="false" onAction="#setBack" prefHeight="36.0" prefWidth="106.0" style="-fx-background-color: darkred;" text="Back">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <TextField fx:id="vegColor" layoutX="100.0" layoutY="61.0" onAction="#getvegColor" prefHeight="26.0" prefWidth="288.0" promptText="Enter Vegetation Color..." />
+            <TextField fx:id="vegColorValue" layoutX="100.0" layoutY="132.0" onAction="#getvegColorValue" prefHeight="26.0" prefWidth="288.0" promptText="Enter Vegetation Color Value..." />
+            <TextField fx:id="yearofEvent" layoutX="100.0" layoutY="210.0" onAction="#getyearofEvent" prefHeight="26.0" prefWidth="288.0" promptText="Enter Year of Event..." />
+            <TextField fx:id="latitude" layoutX="100.0" layoutY="279.0" onAction="#getLatitude" prefHeight="26.0" prefWidth="288.0" promptText="Enter latitude..." />
+            <TextField fx:id="longitude" layoutX="100.0" layoutY="343.0" onAction="#getLongitude" prefHeight="26.0" prefWidth="288.0" promptText="Enter Longitude..." />
+            <TextField fx:id="newObsName" layoutX="100.0" layoutY="407.0" onAction="#getnObsName" prefHeight="26.0" prefWidth="288.0" promptText="Enter Observatory Name.." />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

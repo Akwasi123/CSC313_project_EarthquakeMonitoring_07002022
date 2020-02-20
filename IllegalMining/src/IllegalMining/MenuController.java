@@ -25,6 +25,11 @@ public class MenuController {
     @FXML
     private Button ObserveBt;
 
+    /**
+     * 
+     * @param event
+     * @throws IOException
+     */
     public void setGalamBt(Event event) throws IOException {
         Parent viewParent = FXMLLoader.load(getClass().getResource("GalamseyScene.fxml"));
         Scene viewScene = new Scene(viewParent);
@@ -37,6 +42,11 @@ public class MenuController {
         window.show();
     }
 
+    /**
+     * 
+     * @param event
+     * @throws IOException
+     */
     public void setObserveBt(ActionEvent event) throws IOException {
         Parent viewParent = FXMLLoader.load(getClass().getResource("ObservatoryScene.fxml"));
         Scene viewScene = new Scene(viewParent);
@@ -49,6 +59,11 @@ public class MenuController {
         window.show();
     }
 
+    /**
+     * 
+     * @param event
+     * @throws IOException
+     */
     public void setmenClose(ActionEvent event) throws IOException {
         Parent viewParent = FXMLLoader.load(getClass().getResource("DBScene.fxml"));
         Scene viewScene = new Scene(viewParent);

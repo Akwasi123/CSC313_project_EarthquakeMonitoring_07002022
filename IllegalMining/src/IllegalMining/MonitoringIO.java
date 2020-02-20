@@ -115,15 +115,21 @@ public class MonitoringIO{
 
     }
 
-    // This method is used to print all the recorded observatories.
-
+    
+    /**
+     * This method is used to print all the recorded observatories.
+     * @param monitor
+     */
     public static void showObservatories(Monitoring monitor){
         monitor.printAllEvents();
         MainMenu();
     }
 
     // This method is used to show the statistics about a particular observatory.
-
+    /**
+     * 
+     * @param monitor
+     */
     public static void showStatistics(Monitoring monitor){
         System.out.println("Largest average color value: "+ monitor.getLargestAverage()+" Obtained From: "
                 + monitor.getObservatoryWithLargestAverageColorValue());
@@ -132,7 +138,10 @@ public class MonitoringIO{
     }
 
     // This method returns galamsey events greater than a given color value.
-
+    /**
+     * 
+     * @param monitor
+     */
     public static void GalamseyEventsGreater(Monitoring monitor){
         int value = 0;
         Scanner val = new Scanner(System.in);

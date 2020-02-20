@@ -26,7 +26,11 @@ public class Mining {
     ResultSet rs;
     Statement stmt;
 
-    // This is used to set the connection for the database.
+    /**
+     * This is used to set the connection for the database.
+     * @return conn.
+     */
+    
 
 
     public Connection getDbConnection(){
@@ -46,7 +50,11 @@ public class Mining {
 
     }
 
-    // This allows the user to enter details about the observatory to be stored in the database.
+    /**
+     * This allows the user to enter details about the observatory to be stored in the database.
+     * @param obser1
+     */
+   
 
     public void enterObservatoryData(Observatory obser1){
         String query = "INSERT INTO Observatory(ObsName, country, year_started, area_covered)" +
@@ -66,8 +74,11 @@ public class Mining {
         }
     }
 
-    // This allows for retrieval of details of an observatory in the database.
-
+     
+    /**
+     * This allows for retrieval of details of an observatory in the database.
+     * @throws SQLException
+     */
    
     public void loadObservatoryData() throws SQLException {
         String query = "SELECT * FROM Observatory";
@@ -79,8 +90,12 @@ public class Mining {
         }
     }
 
-    // This allows the user to enter details about the galamsey activities to be stored in the database.
-
+     
+    /**
+     * This allows the user to enter details about the galamsey activities to be stored in the database.
+     * @param g1
+     * @throws SQLException
+     */
     public void enterGalamseyData(Galamsey g1) throws SQLException {
         String query = "INSERT INTO Galamsey(vegetation_color, color_value, latitude, longitude, yearofevent, obsName)" +
                 "VALUES (?, ?, ?, ?, ?, ?);";
@@ -97,8 +112,11 @@ public class Mining {
 
     }
 
-    // This allows for retrieval of details of a galamsey in the database.
-
+    
+    /**
+     * This allows for retrieval of details of a galamsey in the database.
+     * @throws SQLException
+     */
     public void loadGalamseyData() throws SQLException {
         String query = "SELECT * FROM Galamsey";
         stmt = conn.createStatement();
@@ -115,8 +133,12 @@ public class Mining {
         }
     }
 
-    // This method displays an observatory when the name is inputted.
-
+     
+    /**
+     * This method displays an observatory when the name is inputted.
+     * @return rs
+     * @throws SQLException
+     */
     public ResultSet ShowObservatories() throws SQLException {
         String query = "SELECT * FROM Observatory";
         stmt = conn.createStatement();
@@ -125,8 +147,13 @@ public class Mining {
         return rs;
     }
 
-    // This shows observatory greater than an arbitary value inputted by the user.
-
+     
+    /**
+     * This shows observatory greater than an arbitary value inputted by the user.
+     * @param value
+     * @return rs
+     * @throws SQLException
+     */
     public ResultSet showRecordsGreaterthan(Observatory value) throws SQLException {
         String query = "SELECT * FROM Galamsey WHERE color_value > " + value;
         stmt = conn.createStatement();
@@ -135,8 +162,12 @@ public class Mining {
         return rs;
     }
 
-    // This method is used to display all records of a galamsey activity.
     
+    /**
+     * This method is used to display all records of a galamsey activity.
+     * @return pstmt.executeQuery
+     * @throws SQLException
+     */
     public ResultSet showAllGalamseyRecords() throws SQLException {
         String query = "SELECT * FROM Galamsey";
         pstmt = conn.prepareStatement(query);

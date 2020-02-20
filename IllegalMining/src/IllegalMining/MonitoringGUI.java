@@ -15,7 +15,11 @@ public class MonitoringGUI extends Application {
     public static void main(String[] args) {
         launch(args);
     }
-
+    /**
+     * 
+     * @param primaryStage
+     * @throws IOException
+     */
     @Override
     public void start(Stage primaryStage) throws IOException {
          root1 = FXMLLoader.load(getClass().getResource("DBScene.fxml"));

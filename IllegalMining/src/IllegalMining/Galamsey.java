@@ -159,9 +159,12 @@ public class Galamsey{
         
         
 
-    // This method adds data inputted by the user to the database.
-
     
+
+    /**
+     * This method adds data inputted by the user to the database.
+     * @throws SQLException
+     */
 
     public void addtoDatabase() throws SQLException {
         MonitoringIO.database.enterGalamseyData(this);

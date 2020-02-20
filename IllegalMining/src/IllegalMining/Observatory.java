@@ -26,10 +26,10 @@ public class Observatory{
     private double area;
     private List<Galamsey> obsList;
  
-    // This class is used to differentiate the variable name from the object.
+
 
     /**
-     * 
+     * This class is used to differentiate the variable name from the object.
      * @param name This is the name of the observatory.
      * @param country This is the country in which the observatory is in.
      * @param year This is the year the observatory was created.
@@ -194,9 +194,10 @@ public class Observatory{
 
     }
 
-    // The accessor method for getting the galamsey with the largest color value is created.
+    
 
     /**
+     * The accessor method for getting the galamsey with the largest color value is created.
      * The method for getting the galamsey with the largest color value.
      * @return num
      */
@@ -260,8 +261,11 @@ public class Observatory{
 
     }
 
-    // This adds to the database, the records the user inputs.
-    
+   
+    /**
+     * This adds to the database, the records the user inputs.
+     * @throws SQLException
+     */
     public void addtoDatabase() throws SQLException {
         MonitoringIO.database.enterObservatoryData(this);
 

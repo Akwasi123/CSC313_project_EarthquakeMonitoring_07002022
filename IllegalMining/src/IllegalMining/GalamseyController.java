@@ -84,6 +84,11 @@ public class GalamseyController {
 
     }
 
+    /**
+     * 
+     * @param event
+     * @throws IOException
+     */
     public void setBack(ActionEvent event) throws IOException {
         Parent viewParent = FXMLLoader.load(getClass().getResource("MenuScene.fxml"));
         Scene viewScene = new Scene(viewParent);

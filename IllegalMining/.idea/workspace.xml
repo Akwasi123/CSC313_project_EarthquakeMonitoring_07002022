@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c436fa69-24b7-439a-92b8-06b31557ac69" name="Default Changelist" comment="Update">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="c436fa69-24b7-439a-92b8-06b31557ac69" name="Default Changelist" comment="Update" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,18 +55,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="223" y="51" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1582242581567" />
-    <state x="1169" y="225" key="FileChooserDialogImpl" timestamp="1582243427623">
+    <state x="1169" y="225" key="FileChooserDialogImpl" timestamp="1582243673193">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1169" y="225" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1582243427623" />
+    <state x="1169" y="225" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1582243673193" />
     <state x="1284" y="424" key="Github.Dialog.Accounts.Choose" timestamp="1582242988148">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1284" y="424" key="Github.Dialog.Accounts.Choose/0.0.1920.1040@0.0.1920.1040" timestamp="1582242988148" />
-    <state x="624" y="0" key="SettingsEditor" timestamp="1582243428563">
+    <state x="624" y="0" key="SettingsEditor" timestamp="1582244308973">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="624" y="0" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1582243428563" />
+    <state x="624" y="0" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1582244308973" />
     <state x="1221" y="424" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582243433942">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

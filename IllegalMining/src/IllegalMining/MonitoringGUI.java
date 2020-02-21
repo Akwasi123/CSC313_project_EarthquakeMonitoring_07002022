@@ -7,15 +7,20 @@ import javafx.stage.*;
 import javafx.fxml.*;
 
 import java.io.IOException;
-
+/**
+ * Monitoring Graphical User Interface class
+ */
 public class MonitoringGUI extends Application {
     public Scene scene1, scene2, scene3, scene4;
     Parent root1, root2, root3, root4;
-
+    
     public static void main(String[] args) {
         launch(args);
     }
-
+    
+    /**
+     * Sets the stage(window) for GUI creation
+     */
     @Override
     public void start(Stage primaryStage) throws IOException {
          root1 = FXMLLoader.load(getClass().getResource("DBScene.fxml"));

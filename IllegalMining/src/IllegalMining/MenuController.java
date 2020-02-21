@@ -15,16 +15,28 @@ import java.awt.*;
 import java.io.IOException;
 
 public class MenuController {
-
+	
+	/**
+	 * Creating instance variables from javafx fxml file
+	 */
     @FXML
     private Button galamBt;
-
+    
+    /**
+	 * Creating instance variables from javafx fxml file
+	 */
     @FXML
     private Button menClose;
-
+    
+    /**
+	 * Creating instance variables from javafx fxml file
+	 */
     @FXML
     private Button ObserveBt;
-
+    
+    /**
+     * Button that sends a user to the galamsey GUI platform
+     */
     public void setGalamBt(Event event) throws IOException {
         Parent viewParent = FXMLLoader.load(getClass().getResource("GalamseyScene.fxml"));
         Scene viewScene = new Scene(viewParent);
@@ -36,7 +48,9 @@ public class MenuController {
         window.setScene(viewScene);
         window.show();
     }
-
+    /**
+     * Button that sends a user to the observatory GUI platform
+     */
     public void setObserveBt(ActionEvent event) throws IOException {
         Parent viewParent = FXMLLoader.load(getClass().getResource("ObservatoryScene.fxml"));
         Scene viewScene = new Scene(viewParent);
@@ -48,7 +62,10 @@ public class MenuController {
         window.setScene(viewScene);
         window.show();
     }
-
+    
+    /**
+     * Button that closes the window
+     */
     public void setmenClose(ActionEvent event) throws IOException {
         Parent viewParent = FXMLLoader.load(getClass().getResource("DBScene.fxml"));
         Scene viewScene = new Scene(viewParent);

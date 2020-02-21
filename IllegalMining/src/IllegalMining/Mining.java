@@ -14,7 +14,7 @@ import java.sql.*;
 // This is used to initialize the variables for the database inputs.
 
 public class Mining {
-    Controller controller1 = new Controller();
+    
     String url;
     String username;
     String password;

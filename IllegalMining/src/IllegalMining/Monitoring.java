@@ -7,7 +7,6 @@
  * 
 */
 
-package IllegalMining;
 import java.io.FileReader;
 import java.sql.SQLException;
 import java.util.List;

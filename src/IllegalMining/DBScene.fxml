@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="671.0" prefWidth="1198.0" style="-fx-background-image: cool;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="IllegalMining.Controller">
+   <children>
+      <ImageView fitHeight="708.0" fitWidth="1199.0" layoutY="-3.0" pickOnBounds="true">
+         <image>
+            <Image url="@../FXimages/2109.jpg" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="678.0" layoutY="45.0" opacity="0.73" prefHeight="578.0" prefWidth="488.0" style="-fx-background-color: black;">
+         <children>
+            <Button fx:id="dbRegisterbt" alignment="CENTER" blendMode="ADD" cancelButton="true" contentDisplay="CENTER" layoutX="119.0" layoutY="459.0" mnemonicParsing="false" onAction="#setDbRegisterbt" prefHeight="39.0" prefWidth="117.0" style="-fx-background-color: red;" text="Register" textFill="#f0f0f0">
+               <font>
+                  <Font size="16.0" />
+               </font></Button>
+            <PasswordField fx:id="dbPassword" layoutX="111.0" layoutY="237.0" onAction="#getdbPassword" prefHeight="26.0" prefWidth="255.0" promptText="Enter Password..." text="Asantekrobea12" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f53a14" height="103.0" layoutX="34.0" layoutY="16.0" stroke="BLACK" strokeType="INSIDE" width="424.0" />
+            <Label layoutX="117.0" layoutY="44.0" opacity="0.98" text="Register DataBase">
+               <font>
+                  <Font size="32.0" />
+               </font>
+            </Label>
+            <Button fx:id="exitScreen" alignment="CENTER" blendMode="ADD" cancelButton="true" contentDisplay="CENTER" layoutX="255.0" layoutY="459.0" mnemonicParsing="false" onAction="#setExitScreen" prefHeight="39.0" prefWidth="117.0" style="-fx-background-color: red;" text="Exit" textFill="#f0f0f0">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <TextField fx:id="dbUsername" layoutX="109.0" layoutY="168.0" onAction="#getdbUsername" prefHeight="26.0" prefWidth="255.0" promptText="Enter Username..." text="root" />
+            <TextField fx:id="jdbcDriver" layoutX="111.0" layoutY="308.0" onAction="#getJdbcDriver" prefHeight="26.0" prefWidth="255.0" promptText="Enter JDBC Driver..." text="com.mysql.cj.jdbc.Driver" />
+            <TextField fx:id="dbUrl" layoutX="109.0" layoutY="375.0" onAction="#getdbUrl" prefHeight="26.0" prefWidth="255.0" promptText="Enter MySQL URL..." text="jdbc:mysql://127.0.0.1:3306/Mining_Activity" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="55.0" layoutY="133.0" opacity="0.58" prefHeight="406.0" prefWidth="588.0" style="-fx-background-color: red;">
+         <children>
+            <AnchorPane blendMode="SRC_ATOP" cache="true" layoutX="226.0" layoutY="17.0" prefHeight="141.0" prefWidth="154.0" style="-fx-background-color: red;">
+               <children>
+                  <ImageView blendMode="SRC_ATOP" fitHeight="152.0" fitWidth="169.0" layoutX="3.0" layoutY="-5.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@../FXimages/—Pngtree—open%20book%20design_3552582.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+            <Label layoutX="155.0" layoutY="192.0" text="Welcome to My Monitor" textFill="WHITE">
+               <font>
+                  <Font name="Roboto" size="28.0" />
+               </font>
+            </Label>
+            <Label layoutX="154.0" layoutY="344.0" text="This app monitors illegal mining activity" textFill="WHITE">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Line endX="285.0" layoutX="201.0" layoutY="235.0" startX="-100.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

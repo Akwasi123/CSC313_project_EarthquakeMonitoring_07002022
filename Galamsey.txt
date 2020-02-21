@@ -1,0 +1,35 @@
+Vegetation Color:Green
+Color Value:1
+Year:2015
+Position: 34.5 , 23.6
+------------------------------------
+Vegetation Color:Green
+Color Value:1
+Year:2015
+Position: 34.5 , 23.6
+------------------------------------
+Vegetation Color:Green
+Color Value:1
+Year:2015
+Position: 34.5 , 23.6
+------------------------------------
+Vegetation Color:Green
+Color Value:1
+Year:2015
+Position: 34.5 , 23.6
+------------------------------------
+Vegetation Color:Green
+Color Value:1
+Year:2015
+Position: 34.5 , 23.6
+------------------------------------
+Vegetation Color:Green
+Color Value:1
+Year:2015
+Position: 34.5 , 23.6
+------------------------------------
+Vegetation Color:Green
+Color Value:1
+Year:2015
+Position: 34.5 , 23.6
+------------------------------------

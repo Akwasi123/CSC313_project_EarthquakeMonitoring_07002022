@@ -1,0 +1,262 @@
+Name of Observatory: Kali
+Country Situated: Ghana
+Year Started: 1998
+Area: 200.66
+Vegetation Color:Green
+Color Value:1
+Year:2015
+Position: 23.022887 , 4.2589
+
+--------------------------------------
+Name of Observatory: Ghana Limited
+Country Situated: Ghana
+Year Started: 2003
+Area: 200.0
+Vegetation Color:Green
+Color Value:1
+Year:2015
+Position: 23.022887 , 4.2589
+
+Name of Observatory: Ghana Limited
+Country Situated: Ghana
+Year Started: 2003
+Area: 200.0
+Vegetation Color:Brown 
+Color Value:3
+Year:2019
+Position: 43.022887 , 67.2589
+
+--------------------------------------
+Name of Observatory: Kali
+Country Situated: Ghana
+Year Started: 1998
+Area: 200.66
+Vegetation Color:Green
+Color Value:1
+Year:2015
+Position: 23.022887 , 4.2589
+
+--------------------------------------
+Name of Observatory: Ghana Limited
+Country Situated: Ghana
+Year Started: 2003
+Area: 200.0
+Vegetation Color:Green
+Color Value:1
+Year:2015
+Position: 23.022887 , 4.2589
+
+Name of Observatory: Ghana Limited
+Country Situated: Ghana
+Year Started: 2003
+Area: 200.0
+Vegetation Color:Brown 
+Color Value:3
+Year:2019
+Position: 43.022887 , 67.2589
+
+--------------------------------------
+Name of Observatory: Kali
+Country Situated: Ghana
+Year Started: 1998
+Area: 200.66
+Vegetation Color:Green
+Color Value:1
+Year:2015
+Position: 23.022887 , 4.2589
+
+--------------------------------------
+Name of Observatory: Ghana Limited
+Country Situated: Ghana
+Year Started: 2003
+Area: 200.0
+Vegetation Color:Green
+Color Value:1
+Year:2015
+Position: 23.022887 , 4.2589
+
+Name of Observatory: Ghana Limited
+Country Situated: Ghana
+Year Started: 2003
+Area: 200.0
+Vegetation Color:Brown 
+Color Value:3
+Year:2019
+Position: 43.022887 , 67.2589
+
+--------------------------------------
+Name of Observatory: Kali
+Country Situated: Ghana
+Year Started: 1998
+Area: 200.66
+Vegetation Color:Green
+Color Value:1
+Year:2015
+Position: 23.022887 , 4.2589
+
+--------------------------------------
+Name of Observatory: Ghana Limited
+Country Situated: Ghana
+Year Started: 2003
+Area: 200.0
+Vegetation Color:Green
+Color Value:1
+Year:2015
+Position: 23.022887 , 4.2589
+
+Name of Observatory: Ghana Limited
+Country Situated: Ghana
+Year Started: 2003
+Area: 200.0
+Vegetation Color:Brown 
+Color Value:3
+Year:2019
+Position: 43.022887 , 67.2589
+
+--------------------------------------
+Name of Observatory: Kali
+Country Situated: Ghana
+Year Started: 1998
+Area: 200.66
+Vegetation Color:Green
+Color Value:1
+Year:2015
+Position: 23.022887 , 4.2589
+
+--------------------------------------
+Name of Observatory: Ghana Limited
+Country Situated: Ghana
+Year Started: 2003
+Area: 200.0
+Vegetation Color:Green
+Color Value:1
+Year:2015
+Position: 23.022887 , 4.2589
+
+Name of Observatory: Ghana Limited
+Country Situated: Ghana
+Year Started: 2003
+Area: 200.0
+Vegetation Color:Brown 
+Color Value:3
+Year:2019
+Position: 43.022887 , 67.2589
+
+--------------------------------------
+--------------------------------------
+Name of Observatory: Kali
+Country Situated: Ghana
+Year Started: 1998
+Area: 200.66
+Vegetation Color:Green
+Color Value:1
+Year:2015
+Position: 23.022887 , 4.2589
+
+--------------------------------------
+Name of Observatory: Ghana Limited
+Country Situated: Ghana
+Year Started: 2003
+Area: 200.0
+Vegetation Color:Green
+Color Value:1
+Year:2015
+Position: 23.022887 , 4.2589
+
+Name of Observatory: Ghana Limited
+Country Situated: Ghana
+Year Started: 2003
+Area: 200.0
+Vegetation Color:Brown 
+Color Value:3
+Year:2019
+Position: 43.022887 , 67.2589
+
+--------------------------------------
+Name of Observatory: Kali
+Country Situated: Ghana
+Year Started: 1998
+Area: 200.66
+Vegetation Color:Green
+Color Value:1
+Year:2015
+Position: 23.022887 , 4.2589
+
+--------------------------------------
+Name of Observatory: Ghana Limited
+Country Situated: Ghana
+Year Started: 2003
+Area: 200.0
+Vegetation Color:Green
+Color Value:1
+Year:2015
+Position: 23.022887 , 4.2589
+
+Name of Observatory: Ghana Limited
+Country Situated: Ghana
+Year Started: 2003
+Area: 200.0
+Vegetation Color:Brown 
+Color Value:3
+Year:2019
+Position: 43.022887 , 67.2589
+
+--------------------------------------
+Name of Observatory: Kali
+Country Situated: Ghana
+Year Started: 1998
+Area: 200.66
+Vegetation Color:Green
+Color Value:1
+Year:2015
+Position: 23.022887 , 4.2589
+
+--------------------------------------
+Name of Observatory: Ghana Limited
+Country Situated: Ghana
+Year Started: 2003
+Area: 200.0
+Vegetation Color:Green
+Color Value:1
+Year:2015
+Position: 23.022887 , 4.2589
+
+Name of Observatory: Ghana Limited
+Country Situated: Ghana
+Year Started: 2003
+Area: 200.0
+Vegetation Color:Brown 
+Color Value:3
+Year:2019
+Position: 43.022887 , 67.2589
+
+--------------------------------------
+Name of Observatory: Kali
+Country Situated: Ghana
+Year Started: 1998
+Area: 200.66
+Vegetation Color:Green
+Color Value:1
+Year:2015
+Position: 23.022887 , 4.2589
+
+--------------------------------------
+Name of Observatory: Ghana Limited
+Country Situated: Ghana
+Year Started: 2003
+Area: 200.0
+Vegetation Color:Green
+Color Value:1
+Year:2015
+Position: 23.022887 , 4.2589
+
+Name of Observatory: Ghana Limited
+Country Situated: Ghana
+Year Started: 2003
+Area: 200.0
+Vegetation Color:Brown 
+Color Value:3
+Year:2019
+Position: 43.022887 , 67.2589
+
+--------------------------------------

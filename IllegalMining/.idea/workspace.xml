@@ -1,13 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c436fa69-24b7-439a-92b8-06b31557ac69" name="Default Changelist" comment="" />
+    <list default="true" id="c436fa69-24b7-439a-92b8-06b31557ac69" name="Default Changelist" comment="Update">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="39c21805-1fd8-4066-b1d3-8bdac827c27c" />
+  </component>
   <component name="ProjectId" id="1Y5nBnHF8ga1riAtg09DIxUzQBQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -15,6 +26,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -28,5 +45,34 @@
       <updated>1582241189816</updated>
     </task>
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1143" y="230" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1582243222249">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1143" y="230" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1582243222249" />
+    <state x="223" y="51" key="CommitChangelistDialog2" timestamp="1582242581567">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="223" y="51" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1582242581567" />
+    <state x="1169" y="225" key="FileChooserDialogImpl" timestamp="1582243427623">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1169" y="225" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1582243427623" />
+    <state x="1284" y="424" key="Github.Dialog.Accounts.Choose" timestamp="1582242988148">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1284" y="424" key="Github.Dialog.Accounts.Choose/0.0.1920.1040@0.0.1920.1040" timestamp="1582242988148" />
+    <state x="624" y="0" key="SettingsEditor" timestamp="1582243428563">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="624" y="0" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1582243428563" />
+    <state x="1221" y="424" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582243433942">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1221" y="424" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1582243433942" />
   </component>
 </project>
